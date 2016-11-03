@@ -13,7 +13,6 @@
     <preference name="URL_SCHEME" />
     <preference name="DEEPLINK_SCHEME" default="" />
     <preference name="DEEPLINK_HOST" default="" />
-    <preference name="PATHS" default="" />
 
     <!-- android -->
     <platform name="android">
@@ -42,7 +41,10 @@
           <action android:name="android.intent.action.VIEW" />
           <category android:name="android.intent.category.DEFAULT" />
           <category android:name="android.intent.category.BROWSABLE" />
-          <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_PATH_PREFIX$PATHS" />
+          <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_PATH_PREFIXcapt" />
+          <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_PATH_PREFIXcapt/" />
+          <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_PATH_PREFIXuser/activation" />
+          <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_PATH_PREFIXuser/activation/" />
         </intent-filter>
       </config-file>
 
