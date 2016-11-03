@@ -9,7 +9,7 @@
     ]
   },
   "description": "Ionic Deeplinks Plugin",
-  "repository": "https://github.com/driftyco/ionic-plugin-deeplinks.git",
+  "repository": "https://github.com/MEmmanuel/ionic-plugin-deeplinks.git",
   "issue": "https://github.com/driftyco/ionic-plugin-deeplinks/issues",
   "keywords": [
     "ionic",
